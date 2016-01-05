@@ -1,0 +1,1 @@
+Design a class Parallelogram based on classes Point and Line.
