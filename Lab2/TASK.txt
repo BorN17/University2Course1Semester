@@ -1,0 +1,1 @@
+Realize Greedy algorithm of triangulation.
