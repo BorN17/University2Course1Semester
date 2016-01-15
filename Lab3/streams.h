@@ -15,7 +15,7 @@ public:
 	StreamT(StreamT& stream);
 	~StreamT();
 	char pop(); // return data
-	void push(char data); // adds data
+	void push(char input); // adds data
 	void lock(); 
 	void unlock();
 };
