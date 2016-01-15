@@ -48,7 +48,7 @@ class InputT
 	std::thread thread;
 	
 public:
-	Reader() : counter(0) {};
+	Reader() : count(0) {};
 	void run(StreamT& data, std::mutex& out, EventT& exitEvent);
 	void operator() (StreamT& data, std::mutex& out, EventT& exitEvent);
 	void join();
