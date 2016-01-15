@@ -49,9 +49,9 @@ class InputT
 	
 public:
 	Reader() : counter(0) {};
-	void run(Data& data, std::mutex& out, Event& exitEvent);
-	void operator() (Data& data, std::mutex &out, Event& exitEvent);
+	void run(StreamT& data, std::mutex& out, EventT& exitEvent);
+	void operator() (StreamT& data, std::mutex& out, EventT& exitEvent);
 	void join();
-	void printStats(int i);
+	void output(int i);
 	
 };
