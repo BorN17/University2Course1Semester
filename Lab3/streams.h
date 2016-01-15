@@ -52,6 +52,6 @@ public:
 	void run(StreamT& data, std::mutex& out, EventT& exitEvent);
 	void operator() (StreamT& data, std::mutex& out, EventT& exitEvent);
 	void join();
-	void output(int i);
+	void output(char c);
 	
 };
